@@ -11,6 +11,7 @@ $ cd geekationWorkspace
 
 # 4. `LinuxCommandPractice`というディレクトリを作成して、`LinuxCommandPractice`に移動してください。
 $ mkdir LinuxCommandPractice
+$ cd LinuxCommandPractice
 
 # 5. カレントディレクトリのパスを表示してください。
 $ pwd
@@ -28,7 +29,7 @@ $ git push -u origin main
 # ここまでGithubリポジトリ作成時の初期コマンド
 
 # 7. `LinuxCommandPractice`ディレクトリに`.git`ディレクトリが表示されていることを確認してください。
-$ git status
+$ ls -a LinuxCommandPractice
 
 # 8. `LinuxCommandPractice`ディレクトリ内に`practice_dir_1`ディレクトリを作成してください。
 $ mkdir practice_dir_1
